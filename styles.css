@@ -1,0 +1,21 @@
+@font-face {
+    font-family: DellaRespiraReg;
+    src: url(/font/DellaRespira-Regular.ttf);
+}
+
+body {
+    width: 100%;
+    text-align: left;
+}
+
+p{
+    font-family: DellaRespiraReg;;
+    width: 33.3vw;
+    margin: 0 auto; 
+    line-height: 18pt
+}
+
+.title{
+    margin-left: 20vw;
+    width: 60vmax;
+}
