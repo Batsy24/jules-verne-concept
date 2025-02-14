@@ -6,6 +6,9 @@
 body {
     width: 100%;
     text-align: left;
+    line-height: 1.5;
+    font-size: 1.5em;
+    color: rgb(124, 138, 189);
 }
 
 p{
