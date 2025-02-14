@@ -4,18 +4,22 @@
 }
 
 body {
-    width: 100%;
-    text-align: left;
-    line-height: 1.5;
+    width: 50%;
+    text-align: right;
+    line-height: 2.5;
     font-size: 1.5em;
     color: rgb(124, 138, 189);
 }
 
-p{
-    font-family: DellaRespiraReg;;
-    width: 33.3vw;
-    margin: 0 auto; 
-    line-height: 18pt
+p{ font-size: 120px;
+        text-transform: uppercase;
+        letter-spacing: -3px;
+        transition: 700ms ease;
+        font-variation-settings: "wght" 311;
+        margin-bottom: 0.8rem;
+        color: PaleGoldenRod;
+        outline: none;
+        text-align: left !important;
 }
 
 .title{
