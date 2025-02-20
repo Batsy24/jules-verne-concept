@@ -4,25 +4,46 @@
 }
 
 body {
-    width: 50%;
-    text-align: right;
-    line-height: 2.5;
-    font-size: 1.5em;
-    color: rgb(124, 138, 189);
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
 }
 
-p{ font-size: 120px;
-        text-transform: uppercase;
-        letter-spacing: -3px;
-        transition: 700ms ease;
-        font-variation-settings: "wght" 311;
-        margin-bottom: 0.8rem;
-        color: PaleGoldenRod;
-        outline: none;
-        text-align: left !important;
+.sidebar{
+    object-fit: cover;
+    object-position: 50% -100vh;
+    width:25vw;
+}
+
+#mainBody{
+    margin: 1.5em;
+    margin-top: 55vw;
+    display:flex;
+}
+
+#content{
+    font-family: DellaRespiraReg;;
+    font-size: 1.2vw;
+    width: 40vw;
+    margin: 0 auto; 
+    line-height: 1.9vw;
+}
+
+.titleStatic{
+    position: absolute;
+    height: 55vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 2;
 }
 
 .title{
-    margin-left: 20vw;
-    width: 60vmax;
+    position: absolute;
+    height: 55vw;
+    left: 22.5%
 }
+
